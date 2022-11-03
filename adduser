@@ -1,0 +1,32 @@
+##########linux
+
+<How to add user in kali>
+
+sudo adduser jeetu ( iske baad enter krna hai)
+
+###for check
+
+first go to root directory
+
+cd /
+
+sudo cat /etc/passwd
+
+Some time it will show error msg like (<username> is not in the sudoers file)
+
+##Solution >> login root as command 
+
+su root 
+nano /etc/sudoers
+
+Scroll down until you find root  ALL=(ALL)  
+ALL and add the following line below it. Replace <username> with your actual user name.
+<your username> ALL=(ALL) ALL
+
+then reboot command use
+
+then again login . Now you can just type 
+
+cat /etc/passwd 
+
+###happy hacking
