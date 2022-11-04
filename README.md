@@ -54,3 +54,60 @@ But when i changed permission
 
 
 =============================================================================================================================================
+
+  <h1>SSH LOGIN </h1>
+  First ping as well <br/>
+  window to linux  <br/>
+  linux  to window  <br/>
+  
+  #### Some time linux machine not ping window machin due to window firewall so just open CMD OR Powershell as adminstrater and paste it below command it will work
+  
+  <h1>netsh advfirewall firewall add rule name="ICMP Allow incoming V4 echo request" protocol=icmpv4:8,any  dir=in action=allow</h1>
+  
+  Now How to connect connection with SSH 
+  
+  Start SSH conection </br>
+  
+  <h1>sudo service ssh start</h1>
+  
+  You can check status of ssh</br>
+  
+  <h1>sudo service ssh status</h1>
+  
+  just type 
+  
+  <h1>ssh target-machin-ssh-username@target-machin-ip </h1>
+  like ( ssh jeetu@192.168.0.1 )
+  
+ And passwd for login</br>
+ 
+ ![image](https://user-images.githubusercontent.com/81432466/199922771-576d8fd5-5a92-44e2-aa60-5d3c4943b0c7.png)
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
