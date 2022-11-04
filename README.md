@@ -15,7 +15,7 @@ sudo cat /etc/passwd<br/>
 
 Some time it will show error msg like (<username> is not in the sudoers file)<br/>
 
-##Solution >> login root as command <br/>
+  <h1>##Solution >> login root as command </h1><br/>
 
 su root <br/>
 nano /etc/sudoers<br/>
